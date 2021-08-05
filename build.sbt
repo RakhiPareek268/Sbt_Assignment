@@ -29,3 +29,4 @@ lazy val http = project.in(file("http"))
 lazy val root = project.in(file(".")).aggregate(persistence, http)
 
 
+
